@@ -1,0 +1,79 @@
+{
+  "profile": {
+    "name": "Nachiket Bejagamwar",
+    "title": "Software Engineer",
+    "email": "nachiketbejagamwar@gmail.com",
+    "phone": "+91 8766866552",
+    "linkedin": "",
+    "photo": "/profile.png",
+    "summary": "Software Engineer specializing in Java backend development with Spring Boot, microservices, and PostgreSQL. Improved application performance through SQL optimization and caching. Built secure, scalable REST APIs with JWT and role-based authorization, and hold an AWS Certified Developer – Associate certification."
+  },
+  "skills": [
+    { "category": "Languages", "items": ["Java 17+", "C", "C++", "Python", "OOP"] },
+    { "category": "Frameworks & Web", "items": ["Spring Boot", "Spring Security", "Hibernate", "JPA", "REST APIs", "Microservices", "HTML", "CSS", "JavaScript", "PHP"] },
+    { "category": "Databases", "items": ["SQL", "MySQL", "PostgreSQL", "MongoDB", "Redis"] },
+    { "category": "Cloud", "items": ["AWS Certified Developer – Associate", "Google Cloud Platform (GCP)"] },
+    { "category": "Tools & Platforms", "items": ["Git", "Bitbucket", "Jenkins", "Maven/Gradle", "Tomcat", "Postman", "Android Studio", "VS Code"] },
+    { "category": "Methodologies", "items": ["Agile", "SDLC", "DevOps", "Transaction Management", "Dependency Injection"] }
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "tCognition Consultancy Pvt. Ltd.",
+      "period": "March 2025 – Present",
+      "bullets": [
+        "Design and implement backend services with Java, Spring Boot and Hibernate/JPA to support enterprise applications and data persistence.",
+        "Implement transaction management and object-relational mapping with Hibernate/JPA to ensure data integrity during enterprise integrations.",
+        "Apply full SDLC and DevOps practices, including requirements analysis and Git-based version control, to streamline builds and deployments.",
+        "Optimize SQL queries and implement caching to improve response times and enhance overall application stability.",
+        "Diagnose and resolve production issues to maintain application performance in hybrid cloud environments."
+      ]
+    },
+    {
+      "role": "Android Developer Intern",
+      "company": "IGAP Technology Pvt. Ltd.",
+      "period": "June 2024 – August 2024",
+      "bullets": [
+        "Developed Android application features in Java using Android Studio, focusing on UI improvements and efficient resource management.",
+        "Integrated RESTful APIs via Retrofit to consume backend services and dynamic data, improving app functionality and data flow.",
+        "Collaborated in team workflows to apply SDLC practices, deliver quality code, and maintain technical documentation."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Xseed.ai",
+      "subtitle": "Microservices recruitment platform",
+      "tags": ["Java 17", "Spring Boot", "JPA", "PostgreSQL", "MongoDB", "Redis", "JWT", "OAuth", "Jenkins"],
+      "bullets": [
+        "Developed REST APIs using Java 17, Spring Boot, JPA, and Hibernate.",
+        "Built microservices architecture with Candidate, Recruiter, User, and Report services.",
+        "Implemented JWT authentication, role-based authorization, and OAuth login.",
+        "Worked with PostgreSQL and MongoDB for application data; used Redis for caching.",
+        "Integrated Twilio, Google Calendar/Meet and email services; set up CI/CD with Jenkins, Maven, Bitbucket and Tomcat."
+      ]
+    },
+    {
+      "name": "Plug & Go EV Station",
+      "subtitle": "Android EV charging app (Agile, team of 5)",
+      "tags": ["Java", "PHP", "MySQL", "Android Studio", "Razorpay", "Google Maps"],
+      "bullets": [
+        "Built an app letting EV owners find nearby charging stations, reserve slots in real time, and pay via UPI and cards using the Razorpay API.",
+        "Developed backend in Java and PHP with MySQL, email-verified authentication, and role-based access for users and admins.",
+        "Built the Android app in Java using Android Studio, with Google Maps for station search and navigation.",
+        "Validated registration/login, station search, slot reservation, payment and notification flows through test cases (all passed)."
+      ]
+    }
+  ],
+  "education": [
+    { "degree": "B.Tech, Computer Science", "institution": "D Y Patil College of Engineering And Technology, Kolhapur", "year": "2025", "score": "GPA 7.5" },
+    { "degree": "HSC (12th Science)", "institution": "Dayanand Science College, Latur", "year": "2021", "score": "93.67%" }
+  ],
+  "certifications": [
+    "AWS Certified Developer – Associate",
+    "Microsoft Certified: SQL AI Developer – Associate"
+  ],
+  "publications": [
+    "\"Plug & Go EV Station\", IJCRT, Vol. 13, Issue 5, May 2025, ISSN 2320-2882 (co-author)"
+  ]
+}
