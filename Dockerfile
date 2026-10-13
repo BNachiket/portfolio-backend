@@ -1,9 +1,9 @@
 FROM maven:3.9-eclipse-temurin-17 AS build
 WORKDIR /app
-COPY settings.xml /root/.m2/settings.xml
 COPY pom.xml .
 COPY src ./src
-RUN mvn -q -B -DskipTests package || (sleep 30 && mvn -q -B -DskipTests package)
+RUN printf '%s' '<settings><mirrors><mirror><id>google-maven-central</id><name>Google Maven Central mirror</name><url>https://maven-central.storage-download.googleapis.com/maven2/</url><mirrorOf>central</mirrorOf></mirror></mirrors></settings>' > /tmp/settings.xml \
+ && (mvn -s /tmp/settings.xml -q -B -DskipTests package || (sleep 30 && mvn -s /tmp/settings.xml -q -B -DskipTests package))
 
 FROM eclipse-temurin:17-jre
 WORKDIR /app
